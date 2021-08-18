@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WorkTap</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/mediaQueries.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+	integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+<header class="header">
+	<div class="container-xxl">
+		<div class="row justify-content-between">
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-5 align-self-center">
+				<a href="index.html"><img class="logoImg" src="assets/images/logo.svg" alt="WorkTap Logo"></a>
+			</div>
+			<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col align-self-center">
+				<nav class="headerNavbar">
+					<ul class="headerUl" type="none">
+						<li class="headerNavbarList"><a class="headerNavbarLink" href="">Биржа</a></li>
+						<li class="headerNavbarList"><a class="headerNavbarLink" href="">Ворки</a></li>
+						<li class="headerNavbarList"><a class="headerNavbarLink" href="">Конкурсы</a></li>
+						<li class="headerNavbarList"><a class="headerNavbarLink" href="">Создать заказ</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4 align-self-center">
+				<a href=""><img class="headerIcons" src="assets/images/non_star.svg" alt="Избранные"></a>
+				<a href=""><img class="headerIcons bellIcon" src="assets/images/bell.svg" alt="Уведомления"></a>
+				<a href=""><img class="headerIcons" src="assets/images/message.svg" alt="Сообщения"></a>
+
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-2">
+				<div id="mobBurgerIco">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="miniProfile">
+					<p class="userFullName">Ернар Ибрагимов</p>
+					<img class="usersPhoto" src="assets/images/Ellipse 54.png" alt="Фото пользователя">
+					<button class="moreOptionsButton"><img src="assets/images/arrowDown.svg" alt="Опции"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+	<section class="authorization">
+		<div class="container-fluid">
+			<div class="row auth-container closed" id="auth-container">
+				<div class="col-lg-6 auth-form">
+					<div class="formWrapper2">
+						<p>Добро пожаловать!</p>
+						<p>Войдите в свой аккаунт</p>
+						<form class="authorizationForm" action="">
+							<label>E-mail<input type="text" placeholder="E-mail"></label>
+							<label>Пароль<input type="text" placeholder="Пароль"></label>
+							<div class="options">
+								<label><input type="checkbox"> Запомнить меня</label>
+								<a href="">Забыли пароль?</a>
+							</div>	
+							<button>Войти</button>
+						</form>
+						<button class="signInWithGoogleButton"><img src="assets/images/googleIcon.svg" alt="">Или войдите с помощю Google</button>
+						<p>У Вас все еще нет аккауна?<a href=""> Зарегистрируйтесь!</a></p>
+					</div>
+				</div>
+				<div class="col-lg-6 image-slider">
+					<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="https://avatars.yandex.net/get-music-content/2810397/2e81a2a2.a.12377272-1/m1000x1000?webp=false" class="d-block" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="https://avatarfiles.alphacoders.com/919/thumb-1920-91904.png" class="d-block" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="https://im0-tub-kz.yandex.net/i?id=f00c53d51b60bf8de19c5a4cb74efb1b&n=13&exp=1" class="d-block" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="toggler">
+						<div class="toggler-wrapper inactive" onclick="toggleAuth()">
+							<img src="./assets/images/green-arrow-up.png">
+							<div class="text">Войти</div>
+						</div>
+						<div class="toggler-wrapper active" onclick="toggleAuth()">
+							<img src="./assets/images/green-arrow-down.png">
+							<div class="text">Скрыть</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="assets/libs/jquery-1.11.0.min.js"></script>
+	<script src="assets/script/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+	integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

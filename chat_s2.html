@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/mediaQueries.css">
+    <title>Worktap</title>
+</head>
+<body>
+<header class="header white">
+    <div class="container-xxl">
+        <div class="row justify-content-between">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-5 align-self-center">
+                <a href="index.html"><img class="logoImg" src="assets/images/logo.svg" alt="WorkTap Logo"></a>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col align-self-center">
+                <nav class="headerNavbar">
+                    <ul class="headerUl" type="none">
+                        <li class="headerNavbarList"><a class="headerNavbarLink" href="">Биржа</a></li>
+                        <li class="headerNavbarList"><a class="headerNavbarLink" href="">Ворки</a></li>
+                        <li class="headerNavbarList"><a class="headerNavbarLink" href="">Конкурсы</a></li>
+                        <li class="headerNavbarList"><a class="headerNavbarLink" href="">Создать заказ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4 align-self-center">
+                <a href=""><img class="headerIcons" src="assets/images/non_star.svg" alt="Избранные"></a>
+                <a href=""><img class="headerIcons bellIcon" src="assets/images/bell.svg" alt="Уведомления"></a>
+                <a href=""><img class="headerIcons" src="assets/images/message.svg" alt="Сообщения"></a>
+
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-2">
+                <div id="mobBurgerIco">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="miniProfile">
+                    <p class="userFullName">Ернар Ибрагимов</p>
+                    <img class="usersPhoto" src="assets/images/Ellipse 54.png" alt="Фото пользователя">
+                    <button class="moreOptionsButto+n"><img src="assets/images/arrowDown.svg" alt="Опции"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="chat" class="step-2">
+    <div class="container-xxl">
+        <div class="row">
+            <div class="chats-list col-xl-4">
+                <div class="chat-search col-xl-12">
+                    <input class="col-xl-12" type="text" placeholder="Поиск">
+                </div>
+                <div class="chat-users">
+                    <div class="chat-user active">
+                        <div class="chat-user-avatar">
+                            <img src="./assets/images/Ellipse 54.png">
+                        </div>
+                        <div class="chat-user-data">
+                            <div class="chat-user-name">Никита Евреев</div>
+                            <div class="chat-user-last-message">Ну че там, сделал?</div>
+                        </div>
+                    </div>
+                    <div class="chat-user">
+                        <div class="chat-user-avatar">
+                            <img src="./assets/images/Ellipse 54.png">
+                        </div>
+                        <div class="chat-user-data">
+                            <div class="chat-user-name">Никита Евреев</div>
+                            <div class="chat-user-last-message">Ну че там, сделал?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="current-chat col-xl-8 p-0">
+                <div class="current-chat-header">
+                        <div class="current-chat-avatar">
+                            <img src="./assets/images/Ellipse%2054.png">
+                        </div>
+                        <div class="current-chat-data">
+                            <div class="current-chat-username">Никита Евреев</div>
+                            <div class="current-chat-status online">Онлайн</div>
+                        </div>
+                </div>
+                <div class="current-chat-body">
+                    <div class="date-delimeter">Сегодня</div>
+                    <div class="text-message inbox-message">Нужно сделать супер крутой дизайн для сайта</div>
+                    <div class="text-message inbox-message last">Ну в общем так</div>
+                    <div class="file-message">
+                        <div class="file">
+                            <img src="./assets/images/chat-1.png">
+                            <div class="file-name">file.png</div>
+                        </div>
+                        <div class="file no-image">
+                            <div class="icon-cover">
+                                <img class="file-img" src="./assets/images/document-icon.svg">
+                            </div>
+                            <div class="file-name">file.txt</div>
+                        </div>
+                        <div class="show-more">
+                            еще <span class="files-count">3</span>
+                        </div>
+                    </div>
+                    <div class="text-message out-message last">Ок!</div>
+                </div>
+                <div class="current-chat-footer">
+                    <button class="add-file">
+                        <img src="./assets/images/add-file.svg">
+                    </button>
+                    <input class="message" placeholder="Введите Ваше сообщение">
+                    <button class="send-message no-mobile">Отправить</button>
+                    <button class="send-message mobile">
+                        <img src="./assets/images/send.png">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="assets/script/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

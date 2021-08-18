@@ -1,0 +1,4205 @@
+@media only screen and (max-width: 1900px) {
+	.fastSearchButton{
+		top: 0px
+	}
+}
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	/*profile*/
+	.userPhoto{
+		width: 100%
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* SEARCH */
+	.circleAnimated1, .circleAnimated2, .circleAnimated3, .circleAnimated4, .circleAnimated5{
+		display: none
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	/* SEARCH */
+	.searchBarForm{
+		width: 100%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 37px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.categories{
+		width: 95%
+	}
+	.resulltsBelowP{
+		font-size: 16px;
+	}
+
+	
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 1900px) {
+	.fastSearchButton{
+		top: 0px
+	}
+}
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.hashOfTransaction p{
+		color: #656084;
+		margin-top: 20px;
+	}
+	.circleOfDetailsIco{
+		margin-right: 20px;
+		width: 60px;
+		height: 60px;
+	}
+
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	
+	
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	
+	
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	
+	.wrapperOfSummary{
+		flex-direction: column;
+
+	}
+	.wrapperOfSummary div{
+		width: 100%;
+		margin: 0 !important;
+		margin-top: 20px !important;
+	}
+	.summaryDetail2 button:nth-child(4){
+		margin: 0 auto !important;
+
+	}
+	.summaryDetail2 button{
+		display: block;
+		margin: 0 auto !important;
+		margin-top: 20px !important;
+	}
+	.descriptionOfTrabsactions{
+		display: none !important;
+	}
+	.detailsOfTransactions .col-xl-3:nth-child(1){
+		justify-content: start;
+	}
+	.dateOfTransaction{
+		order: 2;
+	}
+	.priceOfTransaction{
+		order: 1;
+	}
+	.hashOfTransaction{
+		order: 3;
+	}
+	.detailsOfTransactions .col-xl-3:nth-child(1) p{
+		padding-top: 6px;
+	}
+	.detailsOfTransactions .col-xl-2:nth-child(3) p{
+		position: relative;
+		top: -25px;
+		left: 81px;
+		text-align: left;
+	}
+	.detailsOfTransactions p{
+		font-size: 14px;
+		text-align: center
+	}
+	.detailsOfTransactions{
+		position: relative;
+		border-radius: 10px;
+		border: 1px solid #F2F0FE;
+		padding: 12px;
+	}
+	.dateOfTransaction p{
+		position: absolute;
+		left: 30px;
+	}
+	.detailsOfTransactions{
+
+	}
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1900px) {
+	.fastSearchButton{
+		top: 0px
+	}
+}
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	/*profile*/
+	.userPhoto{
+		width: 100%
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* SEARCH */
+	.circleAnimated1, .circleAnimated2, .circleAnimated3, .circleAnimated4, .circleAnimated5{
+		display: none
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	/* SEARCH */
+	.searchBarForm{
+		width: 100%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 37px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.categories{
+		width: 95%
+	}
+	.resulltsBelowP{
+		font-size: 16px;
+	}
+
+	
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 1900px) {
+	.fastSearchButton{
+		top: 0px
+	}
+}
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	/*profile*/
+	.userPhoto{
+		width: 100%
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* SEARCH */
+	.circleAnimated1, .circleAnimated2, .circleAnimated3, .circleAnimated4, .circleAnimated5{
+		display: none
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	.filter{
+		margin-top: 100px;
+	}
+	/* SEARCH */
+	.searchBarForm{
+		width: 100%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 37px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.categories{
+		width: 95%
+	}
+	.categories button{
+		padding: 8px 10px;
+		font-size: 12px;
+	}
+	.amountOfProjects{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.rangeOfPrice{
+		display: flex;
+		padding-top: 20px;
+	}
+	.rangeOfPrice span{
+		margin-top: 7px
+	}
+	.sortByPriceButton{
+		margin-top: 20px;
+		font-size: 14px;
+		text-align: left;
+		padding: 8px 10px;
+	}
+	.dropdownWrapper img{
+		position: absolute;
+		right: 10px;
+		top: 35px;
+
+	}
+	.dropdownWrapper{
+		font-size: 14px;
+	}
+	.optionOfDropdown{
+		padding: 8px 10px;
+	}
+	.sortByPrice{
+		padding: 8px 10px;
+		width: 46%;
+		font-size: 12px;
+	}
+	.resulltsBelowP{
+		font-size: 16px;
+	}
+	.historyOfBuyHeader{
+		font-size: 20px;
+		margin-top: 20px
+	}
+	.userNameOrderer{
+		font-size: 14px !important;
+	}
+	.infoOfOrderer p:nth-child(2){
+		font-size: 12px;
+	}
+	.ratingOfUser{
+		position: relative;
+		top: -45px;
+		left: 77px;
+		width: 120px;
+	}
+	.ratingOfUser img{
+		width: 20px;
+		height: 20px;
+	}
+	.descriptionOfWork2{
+		padding-left: 4px;
+		padding-right: 4px;
+		height: 80px;
+		padding-bottom: 0;
+		margin-top: 15px;
+		width: 100%
+	}
+	.wrapperOfInfoOrderer img{
+		width: 65px;
+		height: 65px;
+	}
+	.wrapperOfWork{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+	}
+	.linkOfImageWork{
+		width: 37%;
+		border-radius: 10px;
+	}
+	.descriptionOfWork{
+		padding-top: 8px;
+	}
+	.descriptionOfWork a{
+		font-size: 14px;
+	}
+	.priceOfWork{
+		font-size: 14px;
+	}
+	.linkOfImageWork{
+		position: static;
+	}
+	.wrapperOfWork{
+		position: relative;
+		padding: 4px;
+		background-color: #f6fafd
+		border: 1px solid #F2F0FE;
+	}
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	.openDropdownNotFixed, .openDropdown{
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+	.dropdownNotFixed, .dropdownFixed, .openDropdown {
+		width: 80%
+	}
+	.dropdownNotFixed a , .dropdownFixed a{
+		font-size: 14px
+	}
+	.openDropdownNotFixed img, .openDropdown img{
+		width: 10px;
+		height: 10px;
+		margin-left: 10px;
+	}
+	.sortByPrice{
+		padding: 10px 15px
+	}
+	.amountOfProjects{
+		font-size: 20px
+	}
+	/* fixedFilter */
+	/* footer */
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* fixedFilter */
+	.searchServiceInputFixed, .searchServiceButtonFixed{
+		height: 50px;
+	}
+	.searchServiceButtonFixed{
+		padding: 0px 20px;
+	}
+	/* results */
+	.sortByPrice{
+		padding: 10px 5px;
+		font-size: 13px
+	}
+	.amountOfProjects{
+		font-size: 17px
+	}
+	.orderInfo p:nth-child(1) {
+		font-size: 22px
+	}
+	.titleOfOrder{
+		font-size: 23px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	/* fixedFilter */
+	/* results */
+	.sortByPrice{
+		padding: 7px 5px;
+		font-size: 11px
+	}
+	.openDropdownNotFixed{
+		font-size: 11px;
+		padding: 7px 5px;
+	}
+	.openDropdown{
+		font-size: 11px;
+		padding: 7px 5px;
+	}
+	.dropdownNotFixed, .dropdownFixed{
+		top: 35px;
+		height: 100px;
+		padding: 10px
+	}
+	.dropdownNotFixed a, .dropdownFixed a{
+		font-size: 11px
+	}
+	.searchServiceInputFixed, .searchServiceButtonFixed{
+		height: 30px;
+		font-size: 12px
+	}
+	.searchServiceButtonFixed{
+		padding: 0 10px;
+	}
+	.amountOfProjects{
+		font-size: 14px
+	}
+	.titleOfOrder{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.detailsAboutUser a:nth-child(1){
+		font-size: 16px;
+		margin-bottom: 6px;
+	}
+	.detailsAboutUser p:nth-child(2){
+		margin-bottom: 6px
+	}
+	.detailsAboutUser{
+		padding-top: 9px;
+	}
+	.rating img{
+		width: 18px;
+	}
+	.orderInfo p:nth-child(1){
+		font-size: 18px;
+	}
+	.imageOfUser{
+		width: 100px;
+		height: 100px;
+	}
+	.orderInfo p:nth-child(2){
+	}
+	.orderInfo p:nth-child(3){
+		font-size: 14px
+	}
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* SEARCH */
+	.circleAnimated1, .circleAnimated2, .circleAnimated3, .circleAnimated4, .circleAnimated5{
+		display: none
+	}
+	/* fixedFilter */
+	/* results */
+	.infoAboutUser{
+
+	}
+	.orderInfo p{
+		text-align: center;
+	}
+	.orderInfo p:nth-child(1){
+		margin-top: 20px;
+	}
+	.orderInfo p:nth-child(2){
+		margin-bottom: 10px
+	}
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	/* SEARCH */
+	.searchBarForm{
+		width: 100%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 37px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.categories{
+		width: 95%
+	}
+	.resulltsBelowP{
+		font-size: 16px;
+	}
+
+	/* fixedFilter */
+	/* results */
+	.sortWrapper p{
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 30px;
+
+	}
+	.rangeOfPrice input.sortByPrice:nth-child(1){
+		margin-left: 15px;
+	}
+	.openDropdownNotFixed, .dropdownNotFixed a, .dropdownFixed a{
+		font-size: 16px;
+		font-weight: 500;
+
+	}
+	.dropdownNotFixed, .dropdownFixed{
+		top: 70px;
+		display: block;
+		margin: 0 auto;
+		width: 85%;
+		left: 30px;
+	}
+	.sortByPrice{
+		font-size: 12px;
+		width: 150px;
+	}
+	.openDropdownNotFixed, .openDropdown{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		text-align: left;
+		position: relative;
+		margin-top: 25px;
+		font-weight: 500;
+	}
+	.openDropdownNotFixed img{
+		position: absolute;
+		right: 0;
+		margin-right: 10px;
+		top: 13px
+	}
+	.results{
+		background-color: #fff;
+	}
+	.results div.wrapperOfOrder{
+		background-color: #f6fafd
+	}
+	.titleOfOrder{
+		font-size: 16px;
+	}
+	.results .container-fluid{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.mobPriceOfWork{
+		display: block;
+	    font-size: 16px;
+    	font-weight: 600;
+    	margin-bottom: 10px;
+    	color: #1dbf73;
+	}
+	.imageOfUser{
+		width: 70px;
+		height: 70px;
+	}
+	.results div.wrapperOfOrder{
+		margin-top: 20px;
+	}
+	.detailsAboutUser a:nth-child(1){
+		font-size: 14px;
+		margin-bottom: 4px;
+	}
+	.detailsAboutUser p:nth-child(2){
+		font-size: 12px;
+		margin-bottom: 4px;
+	}
+	.detailsAboutUser{
+		padding-top: 0;
+		padding-left: 12px;
+	}
+	.rating img{
+		width: 16.6px
+	}
+	.rating p{
+		font-size: 12px;
+	}
+	.orderInfo p{
+		font-size: 10px;
+	}
+	.orderInfo p:nth-child(1){
+		display: none;
+	}
+	.orderInfo p:nth-child(2), .orderInfo p:nth-child(3){
+		font-size: 10px;
+	}
+	.orderInfo p:nth-child(2){
+		text-align: left;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.orderInfo p:nth-child(3){
+		text-align: right;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.orderInfo{
+		display: flex;
+		flex-direction: row
+	}
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	.openDropdownNotFixed, .openDropdown{
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+	.dropdownNotFixed, .dropdownFixed, .openDropdown {
+		width: 80%
+	}
+	.dropdownNotFixed a , .dropdownFixed a{
+		font-size: 14px
+	}
+	.openDropdownNotFixed img, .openDropdown img{
+		width: 10px;
+		height: 10px;
+		margin-left: 10px;
+	}
+	.sortByPrice{
+		padding: 10px 15px
+	}
+	.amountOfProjects{
+		font-size: 20px
+	}
+	/* fixedFilter */
+	/* footer */
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* fixedFilter */
+	.searchServiceInputFixed, .searchServiceButtonFixed{
+		height: 50px;
+	}
+	.searchServiceButtonFixed{
+		padding: 0px 20px;
+	}
+	/* results */
+	.sortByPrice{
+		padding: 10px 5px;
+		font-size: 13px
+	}
+	.amountOfProjects{
+		font-size: 17px
+	}
+	.orderInfo p:nth-child(1) {
+		font-size: 22px
+	}
+	.titleOfOrder{
+		font-size: 23px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	/* fixedFilter */
+	/* results */
+	.sortByPrice{
+		padding: 7px 5px;
+		font-size: 11px
+	}
+	.openDropdownNotFixed{
+		font-size: 11px;
+		padding: 7px 5px;
+	}
+	.openDropdown{
+		font-size: 11px;
+		padding: 7px 5px;
+	}
+	.dropdownNotFixed, .dropdownFixed{
+		top: 35px;
+		height: 100px;
+		padding: 10px
+	}
+	.dropdownNotFixed a, .dropdownFixed a{
+		font-size: 11px
+	}
+	.searchServiceInputFixed, .searchServiceButtonFixed{
+		height: 30px;
+		font-size: 12px
+	}
+	.searchServiceButtonFixed{
+		padding: 0 10px;
+	}
+	.amountOfProjects{
+		font-size: 14px
+	}
+	.titleOfOrder{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.detailsAboutUser a:nth-child(1){
+		font-size: 16px;
+		margin-bottom: 6px;
+	}
+	.detailsAboutUser p:nth-child(2){
+		margin-bottom: 6px
+	}
+	.detailsAboutUser{
+		padding-top: 9px;
+	}
+	.rating img{
+		width: 18px;
+	}
+	.orderInfo p:nth-child(1){
+		font-size: 18px;
+	}
+	.imageOfUser{
+		width: 100px;
+		height: 100px;
+	}
+	.orderInfo p:nth-child(2){
+	}
+	.orderInfo p:nth-child(3){
+		font-size: 14px
+	}
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* SEARCH */
+	.circleAnimated1, .circleAnimated2, .circleAnimated3, .circleAnimated4, .circleAnimated5{
+		display: none
+	}
+	/* fixedFilter */
+	/* results */
+	.infoAboutUser{
+
+	}
+	.orderInfo p{
+		text-align: center;
+	}
+	.orderInfo p:nth-child(1){
+		margin-top: 20px;
+	}
+	.orderInfo p:nth-child(2){
+		margin-bottom: 10px
+	}
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	/* SEARCH */
+	.searchBarForm{
+		width: 100%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 37px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.categories{
+		width: 95%
+	}
+	.resulltsBelowP{
+		font-size: 16px;
+	}
+
+	/* fixedFilter */
+	/* results */
+	.sortWrapper p{
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 30px;
+
+	}
+	.rangeOfPrice input.sortByPrice:nth-child(1){
+		margin-left: 15px;
+	}
+	.openDropdownNotFixed, .dropdownNotFixed a, .dropdownFixed a{
+		font-size: 16px;
+		font-weight: 500;
+
+	}
+	.dropdownNotFixed, .dropdownFixed{
+		top: 70px;
+		display: block;
+		margin: 0 auto;
+		width: 85%;
+		left: 30px;
+	}
+	.sortByPrice{
+		font-size: 12px;
+		width: 150px;
+	}
+	.openDropdownNotFixed, .openDropdown{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		text-align: left;
+		position: relative;
+		margin-top: 25px;
+		font-weight: 500;
+	}
+	.openDropdownNotFixed img{
+		position: absolute;
+		right: 0;
+		margin-right: 10px;
+		top: 13px
+	}
+	.results{
+		background-color: #fff;
+	}
+	.results div.wrapperOfOrder{
+		background-color: #f6fafd
+	}
+	.titleOfOrder{
+		font-size: 16px;
+	}
+	.results .container-fluid{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.mobPriceOfWork{
+		display: block;
+	    font-size: 16px;
+    	font-weight: 600;
+    	margin-bottom: 10px;
+    	color: #1dbf73;
+	}
+	.imageOfUser{
+		width: 70px;
+		height: 70px;
+	}
+	.results div.wrapperOfOrder{
+		margin-top: 20px;
+	}
+	.detailsAboutUser a:nth-child(1){
+		font-size: 14px;
+		margin-bottom: 4px;
+	}
+	.detailsAboutUser p:nth-child(2){
+		font-size: 12px;
+		margin-bottom: 4px;
+	}
+	.detailsAboutUser{
+		padding-top: 0;
+		padding-left: 12px;
+	}
+	.rating img{
+		width: 16.6px
+	}
+	.rating p{
+		font-size: 12px;
+	}
+	.orderInfo p{
+		font-size: 10px;
+	}
+	.orderInfo p:nth-child(1){
+		display: none;
+	}
+	.orderInfo p:nth-child(2), .orderInfo p:nth-child(3){
+		font-size: 10px;
+	}
+	.orderInfo p:nth-child(2){
+		text-align: left;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.orderInfo p:nth-child(3){
+		text-align: right;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.orderInfo{
+		display: flex;
+		flex-direction: row
+	}
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	.openDropdownNotFixed, .openDropdown{
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+	.dropdownNotFixed, .dropdownFixed, .openDropdown {
+		width: 80%
+	}
+	.dropdownNotFixed a , .dropdownFixed a{
+		font-size: 14px
+	}
+	.openDropdownNotFixed img, .openDropdown img{
+		width: 10px;
+		height: 10px;
+		margin-left: 10px;
+	}
+	.sortByPrice{
+		padding: 10px 15px
+	}
+	.amountOfProjects{
+		font-size: 20px
+	}
+	/* fixedFilter */
+	/* footer */
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* fixedFilter */
+	.searchServiceInputFixed, .searchServiceButtonFixed{
+		height: 50px;
+	}
+	.searchServiceButtonFixed{
+		padding: 0px 20px;
+	}
+	/* results */
+	.sortByPrice{
+		padding: 10px 5px;
+		font-size: 13px
+	}
+	.amountOfProjects{
+		font-size: 17px
+	}
+	.orderInfo p:nth-child(1) {
+		font-size: 22px
+	}
+	.titleOfOrder{
+		font-size: 23px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	/* fixedFilter */
+	/* results */
+	.sortByPrice{
+		padding: 7px 5px;
+		font-size: 11px
+	}
+	.openDropdownNotFixed{
+		font-size: 11px;
+		padding: 7px 5px;
+	}
+	.openDropdown{
+		font-size: 11px;
+		padding: 7px 5px;
+	}
+	.dropdownNotFixed, .dropdownFixed{
+		top: 35px;
+		height: 100px;
+		padding: 10px
+	}
+	.dropdownNotFixed a, .dropdownFixed a{
+		font-size: 11px
+	}
+	.searchServiceInputFixed, .searchServiceButtonFixed{
+		height: 30px;
+		font-size: 12px
+	}
+	.searchServiceButtonFixed{
+		padding: 0 10px;
+	}
+	.amountOfProjects{
+		font-size: 14px
+	}
+	.titleOfOrder{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.detailsAboutUser a:nth-child(1){
+		font-size: 16px;
+		margin-bottom: 6px;
+	}
+	.detailsAboutUser p:nth-child(2){
+		margin-bottom: 6px
+	}
+	.detailsAboutUser{
+		padding-top: 9px;
+	}
+	.rating img{
+		width: 18px;
+	}
+	.orderInfo p:nth-child(1){
+		font-size: 18px;
+	}
+	.imageOfUser{
+		width: 100px;
+		height: 100px;
+	}
+	.orderInfo p:nth-child(2){
+	}
+	.orderInfo p:nth-child(3){
+		font-size: 14px
+	}
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* SEARCH */
+	.circleAnimated1, .circleAnimated2, .circleAnimated3, .circleAnimated4, .circleAnimated5{
+		display: none
+	}
+	/* fixedFilter */
+	/* results */
+	.infoAboutUser{
+
+	}
+	.orderInfo p{
+		text-align: center;
+	}
+	.orderInfo p:nth-child(1){
+		margin-top: 20px;
+	}
+	.orderInfo p:nth-child(2){
+		margin-bottom: 10px
+	}
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	/* SEARCH */
+	.searchBarForm{
+		width: 100%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 37px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.categories{
+		width: 95%
+	}
+	.resulltsBelowP{
+		font-size: 16px;
+	}
+
+	/* fixedFilter */
+	/* results */
+	.sortWrapper p{
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 30px;
+
+	}
+	.rangeOfPrice input.sortByPrice:nth-child(1){
+		margin-left: 15px;
+	}
+	.openDropdownNotFixed, .dropdownNotFixed a, .dropdownFixed a{
+		font-size: 16px;
+		font-weight: 500;
+
+	}
+	.dropdownNotFixed, .dropdownFixed{
+		top: 70px;
+		display: block;
+		margin: 0 auto;
+		width: 85%;
+		left: 30px;
+	}
+	.sortByPrice{
+		font-size: 12px;
+		width: 150px;
+	}
+	.openDropdownNotFixed, .openDropdown{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		text-align: left;
+		position: relative;
+		margin-top: 25px;
+		font-weight: 500;
+	}
+	.openDropdownNotFixed img{
+		position: absolute;
+		right: 0;
+		margin-right: 10px;
+		top: 13px
+	}
+	.results{
+		background-color: #fff;
+	}
+	.results div.wrapperOfOrder{
+		background-color: #f6fafd
+	}
+	.titleOfOrder{
+		font-size: 16px;
+	}
+	.results .container-fluid{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.mobPriceOfWork{
+		display: block;
+	    font-size: 16px;
+    	font-weight: 600;
+    	margin-bottom: 10px;
+    	color: #1dbf73;
+	}
+	.imageOfUser{
+		width: 70px;
+		height: 70px;
+	}
+	.results div.wrapperOfOrder{
+		margin-top: 20px;
+	}
+	.detailsAboutUser a:nth-child(1){
+		font-size: 14px;
+		margin-bottom: 4px;
+	}
+	.detailsAboutUser p:nth-child(2){
+		font-size: 12px;
+		margin-bottom: 4px;
+	}
+	.detailsAboutUser{
+		padding-top: 0;
+		padding-left: 12px;
+	}
+	.rating img{
+		width: 16.6px
+	}
+	.rating p{
+		font-size: 12px;
+	}
+	.orderInfo p{
+		font-size: 10px;
+	}
+	.orderInfo p:nth-child(1){
+		display: none;
+	}
+	.orderInfo p:nth-child(2), .orderInfo p:nth-child(3){
+		font-size: 10px;
+	}
+	.orderInfo p:nth-child(2){
+		text-align: left;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.orderInfo p:nth-child(3){
+		text-align: right;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.orderInfo{
+		display: flex;
+		flex-direction: row
+	}
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 1900px) {
+	.fastSearchButton{
+		top: 0px
+	}
+}
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	/*profile*/
+	.userPhoto{
+		width: 100%
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* SEARCH */
+	.circleAnimated1, .circleAnimated2, .circleAnimated3, .circleAnimated4, .circleAnimated5{
+		display: none
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	/* SEARCH */
+	.searchBarForm{
+		width: 100%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 37px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.categories{
+		width: 95%
+	}
+	.resulltsBelowP{
+		font-size: 16px;
+	}
+	.historyOfBuyHeader{
+		font-size: 20px;
+		margin-top: 20px
+	}
+	.userNameOrderer{
+		font-size: 14px !important;
+	}
+	.infoOfOrderer p:nth-child(2){
+		font-size: 12px;
+	}
+	.ratingOfUser{
+		position: relative;
+		top: -45px;
+		left: 77px;
+		width: 120px;
+	}
+	.ratingOfUser img{
+		width: 20px;
+		height: 20px;
+	}
+	.descriptionOfWork2{
+		padding-left: 4px;
+		padding-right: 4px;
+		height: 80px;
+		padding-bottom: 0;
+		margin-top: 15px;
+		width: 100%
+	}
+	.wrapperOfInfoOrderer img{
+		width: 65px;
+		height: 65px;
+	}
+	.wrapperOfWork{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+	}
+	.linkOfImageWork{
+		width: 37%;
+		border-radius: 10px;
+	}
+	.descriptionOfWork{
+		padding-top: 8px;
+	}
+	.descriptionOfWork a{
+		font-size: 14px;
+	}
+	.priceOfWork{
+		font-size: 14px;
+	}
+	.linkOfImageWork{
+		position: static;
+	}
+	.wrapperOfWork{
+		position: relative;
+		padding: 4px;
+		background-color: #f6fafd
+		border: 1px solid #F2F0FE;
+	}
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 1900px) {
+	.fastSearchButton{
+		top: 0px
+	}
+}
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* profile */
+
+	/* fastSearch */
+	
+	
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* profile */
+	.ratingOfUser{
+		left: 28%;
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* profile */
+	.ratingOfUser{
+		left: 28%;
+
+	}
+	.userPhoto{
+		margin-top: 30px
+	}
+	.status{
+		left: -20px
+	}
+	.settings{
+		right: 60px
+	}
+	.ratingOfUser{
+		padding: 16px;
+	}
+	.ratingOfUser img{
+		width: 20px;
+		height: 20px;
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* profile */
+	.infoAboutFreelancer{
+		order: 2;
+		
+	}
+	.profile{
+		max-height: 4000px;
+		height: auto;
+	}
+	.createWork img{
+		margin-top: 20px
+	}
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	..infoAboutFreelancer p:nth-child(1){
+		font-size: 18px;
+	}
+	.infoAboutFreelancer p:nth-child(2){
+		font-size: 24px
+
+	}
+	.wrapperOfReview{
+		padding: 12px;
+		background-color: #f6fafd;
+
+	}
+	.userPhoto{
+		width: 90%;
+		height: 90%;
+	}
+	.review button:nth-child(3){
+		margin-left: 3px;
+	}
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	.rating img{
+		width: 18px;
+		height: 18px;
+	}
+	.userImg{
+		width: 70px;
+		height: 70px;
+	}
+	.username{
+		padding-top: 3px;
+		font-size: 16px;
+		margin-bottom: 8px;
+	}
+	/* profile */
+	.profile{
+		padding-top: 60px;
+	}
+	.active-nav{
+		color: #fba457;
+		border: 1px solid #FBA457 !important	;
+		border-radius: 100px;
+	}
+	.mobileNav{
+		display: block;
+	}
+	.mobileNav button{
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+		font-size: 14px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-right: 8px;
+		padding-left: 5px;
+		text-align: center;
+		background-color: transparent;
+		border: none;
+		font-weight: 600;
+		font-family: Monsterrat
+	}
+	.circle1{
+		left: -30px;
+		top: -30px;
+		width: 47px;
+		height: 47px;
+	}
+	.circle2{
+		bottom: -30px;
+		right: -30px;
+		width: 126px;
+		height: 126px;
+	}
+	.waveUser{
+		right: -30px
+	}
+	.dotsUser{
+		left: -30px
+	}
+	.settings{
+		right: 40px
+	}
+	.createWork img{
+		width: 40px
+	}
+	.createWork p{
+		font-size: 20px
+	}
+	.wrapperOfWork{
+		display: flex;
+		flex-direction: row;
+	}
+	.infoAboutFreelancer{
+		padding-top: 30px
+	}
+	.moreInfoAboutUser div{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.moreInfoAboutUser div:nth-child(n+3){
+		flex-direction: column;
+	}
+	.moreInfoAboutUser div:nth-child(n+3) p{
+		width: 100%
+	}
+	.moreInfoAboutUser p img{
+		margin-right: 8px;
+		width: 18px;
+		height: 18px;
+	}
+	.moreInfoAboutUser p{
+		font-size: 16px !important; 
+	}
+	.wrapperOfWork{
+		padding: 4px;
+		background: #F6FAFD;
+		border: 1px solid #F2F0FE;
+	}
+	.wrapperOfWork img{
+		border-radius: 20px;
+		width: 100%
+	}
+	.textOfReview{
+		margin-bottom: 0;
+	}
+	.imageOfWork{
+		width: 40%
+	}
+	.descriptionOfWork{
+		padding: 0;
+		padding-left: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.descriptionOfWork p{
+		margin-bottom: 0;
+	}
+	.fastSearch{
+		display: none
+	}
+	.fastSearchButton{
+		display: none
+	}
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 1900px) {
+	.fastSearchButton{
+		top: 0px
+	}
+}
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+
+	
+	
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	
+	
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.logoImg{}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	/* order */	
+	.order{
+
+	}
+	.secondWrapper p:nth-child(2){
+		text-align: right
+	}
+	.shortInfoAboutOrder{
+		flex-direction: column
+	}
+	.titleOfOrder{
+		width: 100%;
+		font-size: 18px;
+		margin-bottom: 12px;
+		margin-top: 20px;
+
+	}
+	.firstWrapper{
+		width: 100%;
+		margin-bottom: 12px;
+	}
+	.secondWrapper{
+		display: flex;
+		flex-direction: row;
+		width: 100%
+	}
+	.secondWrapper p:nth-child(2){
+		font-size: 14px
+	}
+	.detailsOfOrder p{
+		font-size: 14px
+	}
+	.firstWrapper p{
+		font-size: 12px
+	}
+	.secondWrapper p{
+		width: 100%;
+		
+	}
+	.suggestions{
+		flex-direction: column;		
+		margin-bottom: 32px
+	}
+	.suggestions p{
+		order: 1;
+	}
+	.suggestions input{
+		width: 100%;
+		order: 2;
+		font-size: 14px;
+	}
+	.wrapperOfOrderer p{
+		font-size: 14px
+	}
+	.infoAboutOrderer p, .infoAboutOrderer a{
+		margin-bottom: 6px
+	}
+	.ordererPhoto{
+		width: 80px;
+		height: 80px;
+	}
+	.rating img{
+		width: 18px;
+		height: 18px;
+	}
+	.rating p{
+		font-size: 12px
+	}
+	.orderFiles{
+		font-size: 14px
+	}
+	.orderFiles img{
+		width: 32px;
+		height: 32px
+	}
+	.wrapperOfOrder, .wrapperOfOrderer{
+		border: none;
+		padding: 0;
+	}
+	.userOfOffer{
+		margin-bottom: 20px
+	}
+	.firstWrapperOfOffer{
+		flex-direction: column
+	}
+	.priceAndDeadline{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	.wrapperOfOrderer{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.actionLinks{
+		font-size: 14px
+	}
+	.offersP{
+		margin-top: 50px;
+	}
+	.wrapperOfOffer{
+		background: #F6FAFD;
+		padding: 12px;
+	}
+	.secondWrapperOfOffer a:nth-child(3){
+		display: inline-block;
+		width: 46%;
+		text-align: center;
+		padding: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin: 0;
+	}
+	.secondWrapperOfOffer a:nth-child(4){
+		display: inline-block;
+		width: 46%;
+		text-align: center;
+		padding: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin: 0;
+		margin-left: 20px;
+	}
+	.actionsWithOrder a:first-child{
+		width: 30%
+	}
+	.actionsWithOrder a:last-child{
+		width: 67%
+	}
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+}
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	.openDropdownNotFixed, .openDropdown{
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+	.dropdownNotFixed, .dropdownFixed, .openDropdown {
+		width: 80%
+	}
+	.dropdownNotFixed a , .dropdownFixed a{
+		font-size: 14px
+	}
+	.openDropdownNotFixed img, .openDropdown img{
+		width: 10px;
+		height: 10px;
+		margin-left: 10px;
+	}
+	.sortByPrice{
+		padding: 10px 15px
+	}
+	.amountOfProjects{
+		font-size: 20px
+	}
+	/* fixedFilter */
+	/* footer */
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* fixedFilter */
+	.searchServiceInputFixed, .searchServiceButtonFixed{
+		height: 50px;
+	}
+	.searchServiceButtonFixed{
+		padding: 0px 20px;
+	}
+	/* results */
+	.sortByPrice{
+		padding: 10px 5px;
+		font-size: 13px
+	}
+	.amountOfProjects{
+		font-size: 17px
+	}
+	.orderInfo p:nth-child(1) {
+		font-size: 22px
+	}
+	.titleOfOrder{
+		font-size: 23px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	/* fixedFilter */
+	/* results */
+	.sortByPrice{
+		padding: 7px 5px;
+		font-size: 11px
+	}
+	.openDropdownNotFixed{
+		font-size: 11px;
+		padding: 7px 5px;
+	}
+	.openDropdown{
+		font-size: 11px;
+		padding: 7px 5px;
+	}
+	.dropdownNotFixed, .dropdownFixed{
+		top: 35px;
+		height: 100px;
+		padding: 10px
+	}
+	.dropdownNotFixed a, .dropdownFixed a{
+		font-size: 11px
+	}
+	.searchServiceInputFixed, .searchServiceButtonFixed{
+		height: 30px;
+		font-size: 12px
+	}
+	.searchServiceButtonFixed{
+		padding: 0 10px;
+	}
+	.amountOfProjects{
+		font-size: 14px
+	}
+	.titleOfOrder{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.detailsAboutUser a:nth-child(1){
+		font-size: 16px;
+		margin-bottom: 6px;
+	}
+	.detailsAboutUser p:nth-child(2){
+		margin-bottom: 6px
+	}
+	.detailsAboutUser{
+		padding-top: 9px;
+	}
+	.rating img{
+		width: 18px;
+	}
+	.orderInfo p:nth-child(1){
+		font-size: 18px;
+	}
+	.imageOfUser{
+		width: 100px;
+		height: 100px;
+	}
+	.orderInfo p:nth-child(2){
+	}
+	.orderInfo p:nth-child(3){
+		font-size: 14px
+	}
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* SEARCH */
+	.circleAnimated1, .circleAnimated2, .circleAnimated3, .circleAnimated4, .circleAnimated5{
+		display: none
+	}
+	/* fixedFilter */
+	/* results */
+	.infoAboutUser{
+
+	}
+	.orderInfo p{
+		text-align: center;
+	}
+	.orderInfo p:nth-child(1){
+		margin-top: 20px;
+	}
+	.orderInfo p:nth-child(2){
+		margin-bottom: 10px
+	}
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	.mainHeaderText{
+		font-size: 18px;
+		margin-bottom: 30px;
+		margin-top: 10px
+	}
+	.amountOfProjects{
+		text-align: left
+	}
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	/* SEARCH */
+	.searchBarForm{
+		width: 100%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 37px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.categories{
+		width: 95%
+	}
+	.resulltsBelowP{
+		font-size: 16px;
+	}
+
+	/* fixedFilter */
+	/* results */
+	.sortWrapper p{
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 30px;
+
+	}
+	.amountOfProjects{
+		text-align: left !important;
+		margin-bottom: 20px !important;
+		font-size: 14px !important;
+	}
+	.sortByPriceButton{
+		text-align: left;
+		font-weight: 600;
+		font-size: 14px;
+		padding: 8px 0;
+		position: relative;
+		padding-left: 20px;
+	}
+	.descriptionOfOrder{
+		height: auto;
+		font-size: 14px;
+		display: -webkit-box;
+  		-webkit-line-clamp: 7;
+  		-webkit-box-orient: vertical;  
+  		margin-bottom: 10px;
+	}
+	.orderInfo p:nth-child(2){
+		margin-bottom: 0;
+	}
+	.statusOfOrder {
+		display: none
+	}
+	.sortByPriceButton img{
+		position: absolute;
+		right: 20px;
+		top: 15px;
+	}
+	.optionOfDropdown label{
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.rangeOfPrice input.sortByPrice:nth-child(1){
+		margin-left: 15px;
+	}
+	.openDropdownNotFixed, .dropdownNotFixed a, .dropdownFixed a{
+		font-size: 16px;
+		font-weight: 500;
+
+	}
+	.dropdownNotFixed, .dropdownFixed{
+		top: 70px;
+		display: block;
+		margin: 0 auto;
+		width: 85%;
+		left: 30px;
+	}
+	.sortByPrice{
+		font-size: 12px;
+		width: 150px;
+	}
+	.openDropdownNotFixed, .openDropdown{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		text-align: left;
+		position: relative;
+		margin-top: 25px;
+		font-weight: 500;
+	}
+	.openDropdownNotFixed img{
+		position: absolute;
+		right: 0;
+		margin-right: 10px;
+		top: 13px
+	}
+	.results{
+		background-color: #fff;
+	}
+	.results div.wrapperOfOrder{
+		background-color: #f6fafd
+	}
+	.titleOfOrder{
+		font-size: 16px;
+	}
+	.results .container-fluid{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.mobPriceOfWork{
+		display: block;
+	    font-size: 16px;
+    	font-weight: 600;
+    	margin-bottom: 10px;
+    	color: #1dbf73;
+	}
+	.imageOfUser{
+		width: 70px;
+		height: 70px;
+	}
+	.results div.wrapperOfOrder{
+		margin-top: 20px;
+	}
+	.detailsAboutUser a:nth-child(1){
+		font-size: 14px;
+		margin-bottom: 4px;
+	}
+	.detailsAboutUser p:nth-child(2){
+		font-size: 12px;
+		margin-bottom: 4px;
+	}
+	.detailsAboutUser{
+		padding-top: 0;
+		padding-left: 12px;
+	}
+	.rating img{
+		width: 16.6px
+	}
+	.rating p{
+		font-size: 12px;
+	}
+	.orderInfo p{
+		font-size: 10px;
+	}
+	.orderInfo p:nth-child(1){
+		display: none;
+	}
+	.orderInfo p:nth-child(2), .orderInfo p:nth-child(3){
+		font-size: 10px;
+	}
+	.orderInfo p:nth-child(2){
+		text-align: left;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.orderInfo p:nth-child(3){
+		text-align: right;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.orderInfo{
+		display: flex;
+		flex-direction: row
+	}
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 1900px) {
+	.fastSearchButton{
+		top: 0px
+	}
+}
+@media only screen and (max-width: 1400px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 10px 14px;
+	}
+	.headerNavbarList{
+		padding: 10px 15px;
+	}
+	.headerIcons path{
+	}
+	
+	/* SEARCH */
+
+	/* results */
+	
+	
+}
+@media only screen and (max-width: 1200px) {
+	/* HEADER */
+	.headerNavbarList{
+		padding: 10px 6px;
+	}
+	.headerIcons{
+		padding: 10px 10px;
+	}
+	.usersPhoto{
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+	}
+	.userFullName{
+		font-size: 15px;
+		display: inline-block
+	}
+	.moreOptionsButton{
+		margin-left: 5px;
+	}
+	.moreOptionsButton img{
+		width: 12px;
+		height: 12px;
+	}
+	/* SEARCH */
+	.searchBarDescription{
+		font-size: 32px
+	}
+	/* footer */
+	.socialNetworkLogos2, .socialNetworkLogos3, .socialNetworkLogos4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/* HEADER */
+	.header{
+		height: 13vh
+	}
+	.headerNavbarLink{
+		font-size: 14px;
+	}
+	.userFullName{
+		font-size: 14px;
+	}
+	.headerIcons{
+		padding: 10px 3px;
+	}
+	.headerNavbarList{
+		padding: 10px 3px;
+	}
+	.headerNavbarList a{
+		font-size: 12.5px
+	}
+	.usersPhoto{
+		width: 60px;
+		height: 60px;
+	}
+	.userFullName{
+		font-size: 12px
+	}
+	/* SEARCH */
+	.search{
+		height: 87vh
+	}
+	.searchBarDescription{
+		font-size: 25px;
+		margin-bottom: 40px
+	}
+	.searchBarForm{
+		width: 70%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 40px;
+	}
+	.searchServiceInput{
+		margin-bottom: 30px
+	}
+	.searchServiceButton{
+		padding: 0 20px;
+	}
+	.categoryOfWork, .allCategories{
+		padding: 7px 10px;
+		font-size: 12px
+	}
+	.categories{
+		width: 80%;
+		margin: 0 auto
+	}
+	.resulltsBelowP{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	/*profile*/
+	.userPhoto{
+		width: 100%
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	.headerIcons{
+		padding: 0;
+		width: 18px
+	}
+	.headerNavbarList{
+		padding: 10px 0
+	}
+	/* SEARCH */
+	.circleAnimated1, .circleAnimated2, .circleAnimated3, .circleAnimated4, .circleAnimated5{
+		display: none
+	}
+	
+	/* footer */
+}
+@media only screen and (max-width: 576px) {
+	/* HEADER */
+	.header{
+		height: 60px;
+		position: fixed;
+		z-index: 4;
+		width: 100%;
+		top: 0;
+	}
+	.headerIcons{
+		margin: 0 5px;
+	}
+	.search{
+		padding-top: 60px;
+		height: 100vh;
+	}
+	.searchBarDescription{
+		padding-top: 60px;
+		font-size: 18px;
+	}
+	#mobBurgerIco{
+		display: flex;
+	}
+	.headerNavbar, .miniProfile{
+		display: none;
+	}
+	.bellIcon{
+		width: 21px;
+		height: 21px;
+	}
+	/* SEARCH */
+	.searchBarForm{
+		width: 100%
+	}
+	.searchServiceInput, .searchServiceButton{
+		height: 37px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.categories{
+		width: 95%
+	}
+	.resulltsBelowP{
+		font-size: 16px;
+	}
+
+	
+	/* footer */
+	/*mobheader*/
+	.mobHeaderWrapper{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+	}
+	.mobHeader{
+		z-index: 6;
+		width: 90%;
+		height: 100%;
+		top: 0;
+		background-color: #f6f6ff;
+		display: block;
+	}
+	.mobHeader img{
+		width: 50px;
+		height: 50px;
+		margin-right: 12px;
+	}
+	.mobHeader a{
+		color: #000;
+		padding-left: 20px;
+		padding-top: 20px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Monsterrat;
+	}
+	.mobHeader li:nth-child(1) a{
+
+	}
+	.mobHeader li:nth-child(7) a{
+		padding-top: 40px;
+	}
+	.divideLineMobHeader{
+		height: 1px;
+		background-color: #ebe8ff;
+		width: 80%;
+		margin: 20px; auto;
+	}
+	.loadMoreButton{
+		margin-top: 20px;
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		padding: 0;
+	}
+	.fixedFilter{
+		padding-top: 60px;
+	}
+	.searchServiceInputFixed{
+		margin-bottom: 20px;
+	}
+}

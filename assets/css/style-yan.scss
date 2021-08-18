@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    font: inherit;
+    text-decoration: none;
+    list-style-type: none
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    max-width: 930px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.step {
+    position: relative !important;
+}
+
+.step-text {
+    margin-right: 0 !important;
+}
+
+.step-line {
+    margin-right: 0 !important;
+    width: 100% !important;
+    left: 0 !important;
+}
+
+.step-text-pos {
+    bottom: -24px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.requirements {
+    color: #000;
+}
+
+.requirements-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+.requirements-subtitle {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.requirements-panel {
+    padding-left: 24px !important;
+    background: #EBE8FF;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    width: 758px;
+    max-width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+// .requirements-panel__item {
+//     &:last-child {
+//         margin-right: 0;
+//     }
+
+//     margin-right: 32px;
+// }
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.work-step-4 {
+    margin-top: 80px;
+}
+
+.requirements-panel__button {
+    margin-right: 28px;
+}
+
+.requirements-panel__select {
+    padding-right: 38px;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        background-image: url(../images/panel-item-select.svg);
+        width: 6px;
+        height: 4px;
+        top: 8px;
+        right: 24px;
+    }
+}
+
+
+
+.requirements-textarea {
+    width: 758px;
+    max-width: 100%;
+    border-bottom: 1px solid #F2F0FE;
+    background: transparent;
+    border: none;
+    padding-top: 20px;
+    min-height: 200px;
+    padding-left: 20px;
+
+    &::placeholder {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #B0AAD0;
+    }
+}
+
+.progressbar {
+    display: none;
+}
+
+@media(max-width:1024px) {}
+
+@media only screen and (max-width:768px) {
+
+    section {
+        margin-top: 70px;
+    }
+
+    .requirements-title {
+        font-size: 18px;
+    }
+
+    .requirements-subtitle {
+        font-size: 16px;
+    }
+
+    .requirements-panel {
+        padding-left: 15px !important;
+        align-items: center;
+
+        overflow-x: scroll;
+        height: 60px;
+
+        &::-webkit-scrollbar {
+            width: 24px;
+            /* ширина для вертикального скролла */
+            height: 8px;
+            /* высота для горизонтального скролла */
+            background-color: #143861;
+            border-radius: 9em;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(29, 191, 115, 1);
+            border-radius: 9em;
+            box-shadow: inset 1px 1px 10px #f3faf7;
+        }
+    }
+
+    .step-number {}
+
+    .step-text,
+    .step-text-pos {
+        font-size: 14px !important;
+        line-height: 18px !important;
+        white-space: normal;
+    }
+
+    .step-item:nth-of-type(3) {
+
+        .step-text-pos {
+            bottom: -40px;
+        }
+    }
+
+}
+
+@media(max-width:500px) {
+    .steps {
+        display: none;
+    }
+
+    .progressbar {
+        height: 1px;
+        max-width: 100%;
+        background-size: 80% 100%;
+        background-color: rgba(29, 191, 115, 1);
+        display: block;
+    }
+
+}
+
+@media(max-width:320px) {}
